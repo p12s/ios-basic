@@ -35,11 +35,13 @@ class Circle: Shape {
   }
   
   override func getArea() -> Double {
-    return .pi * radius * radius
+    let result = .pi * radius * radius
+    return result.isFinite ? result : Double.greatestFiniteMagnitude
   }
   
   override func getPerimeter() -> Double {
-    return 2 * .pi * radius
+    let result = 2 * .pi * radius
+    return result.isFinite ? result : Double.greatestFiniteMagnitude
   }
 }
 
@@ -59,11 +61,13 @@ class Square: Shape {
   }
   
   override func getArea() -> Double {
-    return side * side
+    let result = side * side
+    return result.isFinite ? result : Double.greatestFiniteMagnitude
   }
   
   override func getPerimeter() -> Double {
-    return 4 * side
+    let result = 4 * side
+    return result.isFinite ? result : Double.greatestFiniteMagnitude
   }
 }
 
@@ -88,11 +92,13 @@ class Triangle: Shape {
   
   override func getArea() -> Double {
     let p = (a + b + c) / 2
-    return sqrt(p * (p - a) * (p - b) * (p - c))
+    let result = sqrt(p * (p - a) * (p - b) * (p - c))
+    return result.isFinite ? result : Double.greatestFiniteMagnitude
   }
   
   override func getPerimeter() -> Double {
-    return a + b + c
+    let result = a + b + c
+    return result.isFinite ? result : Double.greatestFiniteMagnitude
   }
 }
 
