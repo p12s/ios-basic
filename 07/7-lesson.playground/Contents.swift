@@ -1,34 +1,23 @@
-
-import Foundation
-
 protocol Describable {
     var description: String { get }
 }
 
-struct User: Describable, Equatable {
-    private(set) var name: String
+struct User {
+    var name: String
     let email: String
     let isStudent: Bool
-    
-    init(_ name: String, _ email: String, _ isStudent: Bool) {
-        self.name = name
-        self.email = email
-        self.isStudent = isStudent
-    }
     
     var description: String {
         let status = isStudent ? "Студент" : "Не студент"
         return "Имя: \(name), Email: \(email), Статус: \(status)"
     }
-    
-    mutating func updateName(to newName: String) {
-        name = newName
-    }
 }
 
 var users: [User] = [
-    User("Иван", "ivan@mail.ru", true),
-    User("Ксения", "ksenia@mail.ru", false)
+    User(name: "Иван", email: "ivan@mail.ru", isStudent: false),
+    User(name: "Ксения", email: "ksenia@mail.ru", isStudent: true),
+    User(name: "Петр", email: "petr@mail.ru", isStudent: false),
+    User(name: "Семен", email: "semen@mail.ru", isStudent: true)
 ]
 
 users.forEach { user in
@@ -36,13 +25,23 @@ users.forEach { user in
 }
 
 print()
-users[0].updateName(to: "Иван Иванов")
+users[1].name = "Ксения Петрова"
 
 users.forEach { user in
     print(user.description)
 }
 
-print()
 let students = users.filter { $0.isStudent }
-print("Найдено студентов: \(students.count)")
+print("\nНайдено студентов: \(students.count)")
 students.forEach { print($0.description) }
+
+/*
+ Имя: Иван, Email: ivan@mail.ru, Статус: Не студент
+ Имя: Ксения Петрова, Email: ksenia@mail.ru, Статус: Студент
+ Имя: Петр, Email: petr@mail.ru, Статус: Не студент
+ Имя: Семен, Email: semen@mail.ru, Статус: Студент
+
+ Найдено студентов: 2
+ Имя: Ксения Петрова, Email: ksenia@mail.ru, Статус: Студент
+ Имя: Семен, Email: semen@mail.ru, Статус: Студент
+*/
