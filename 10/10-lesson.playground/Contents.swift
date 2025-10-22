@@ -7,8 +7,9 @@ final class ViewController: UIViewController {
      
     func execute() {
         let workItem = DispatchWorkItem {
-            UIView.animate(withDuration: 1) { [weak self] in
-                self?.view.alpha = 0.1
+            // UIView.animate(withDuration: 1) { [weak self] in удален weak self
+            UIView.animate(withDuration: 1) {
+                self.view.alpha = 0.1
             }
         }
 
