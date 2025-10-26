@@ -4,25 +4,30 @@ import UIKit
 final class ViewController: UIViewController {
  
     var workItem: DispatchWorkItem?
+    
+    deinit {
+        print("DEINIT")
+    }
      
     func execute() {
-        let workItem = DispatchWorkItem {
-            // UIView.animate(withDuration: 1) { [weak self] in удален weak self
-            UIView.animate(withDuration: 1) {
-                self.view.alpha = 0.1
+        let workItem = DispatchWorkItem { [weak self] in
+            UIView.animate(withDuration: 1) { [weak self] in
+                self?.view.alpha = 0.1
             }
         }
 
         self.workItem = workItem
-        DispatchQueue.main.async(execute: workItem) // добавлен запуск DispatchWorkItem
+        DispatchQueue.main.async(execute: workItem)
     }
-
 }
  
+print("=== БЕЗ retain cycle (с [weak self]) ===")
 autoreleasepool {
     let vc = ViewController()
     vc.execute()
 }
+print("autoreleasepool завершен")
+
 
 // 2
 class Class1 {
