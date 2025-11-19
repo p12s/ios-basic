@@ -10,22 +10,9 @@
 		CEEB49AE2ECDC86600827762 /* NavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CEEB49C02ECDC86700827762 /* Exceptions for "NavigationDemo" folder in "NavigationDemo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CEEB49AD2ECDC86600827762 /* NavigationDemo */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CEEB49B02ECDC86600827762 /* NavigationDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CEEB49C02ECDC86700827762 /* Exceptions for "NavigationDemo" folder in "NavigationDemo" target */,
-			);
 			path = NavigationDemo;
 			sourceTree = "<group>";
 		};

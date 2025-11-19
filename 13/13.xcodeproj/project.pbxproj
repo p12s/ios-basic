@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		CEEB49442EC84E7800827762 /* 16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 16.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEEB49672EC9C5CF00827762 /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE355A642EBE60B000C464EA /* 13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CEEB49462EC84E7800827762 /* 16 */ = {
+		CE355A662EBE60B000C464EA /* 13 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 16;
-			sourceTree = "<group>";
-		};
-		CEEB49682EC9C5CF00827762 /* CollectionViewDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CollectionViewDemo;
+			path = 13;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEEB49412EC84E7800827762 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEB49642EC9C5CF00827762 /* Frameworks */ = {
+		CE355A612EBE60B000C464EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,20 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEEB493B2EC84E7800827762 = {
+		CE355A5B2EBE60B000C464EA = {
 			isa = PBXGroup;
 			children = (
-				CEEB49462EC84E7800827762 /* 16 */,
-				CEEB49682EC9C5CF00827762 /* CollectionViewDemo */,
-				CEEB49452EC84E7800827762 /* Products */,
+				CE355A662EBE60B000C464EA /* 13 */,
+				CE355A652EBE60B000C464EA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEEB49452EC84E7800827762 /* Products */ = {
+		CE355A652EBE60B000C464EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEEB49442EC84E7800827762 /* 16.app */,
-				CEEB49672EC9C5CF00827762 /* CollectionViewDemo.app */,
+				CE355A642EBE60B000C464EA /* 13.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,97 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEEB49432EC84E7800827762 /* 16 */ = {
+		CE355A632EBE60B000C464EA /* 13 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEEB49572EC84E7A00827762 /* Build configuration list for PBXNativeTarget "16" */;
+			buildConfigurationList = CE355A6F2EBE60B100C464EA /* Build configuration list for PBXNativeTarget "13" */;
 			buildPhases = (
-				CEEB49402EC84E7800827762 /* Sources */,
-				CEEB49412EC84E7800827762 /* Frameworks */,
-				CEEB49422EC84E7800827762 /* Resources */,
+				CE355A602EBE60B000C464EA /* Sources */,
+				CE355A612EBE60B000C464EA /* Frameworks */,
+				CE355A622EBE60B000C464EA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CEEB49462EC84E7800827762 /* 16 */,
+				CE355A662EBE60B000C464EA /* 13 */,
 			);
-			name = 16;
+			name = 13;
 			packageProductDependencies = (
 			);
-			productName = 16;
-			productReference = CEEB49442EC84E7800827762 /* 16.app */;
-			productType = "com.apple.product-type.application";
-		};
-		CEEB49662EC9C5CF00827762 /* CollectionViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEEB49792EC9C5D100827762 /* Build configuration list for PBXNativeTarget "CollectionViewDemo" */;
-			buildPhases = (
-				CEEB49632EC9C5CF00827762 /* Sources */,
-				CEEB49642EC9C5CF00827762 /* Frameworks */,
-				CEEB49652EC9C5CF00827762 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CEEB49682EC9C5CF00827762 /* CollectionViewDemo */,
-			);
-			name = CollectionViewDemo;
-			packageProductDependencies = (
-			);
-			productName = CollectionViewDemo;
-			productReference = CEEB49672EC9C5CF00827762 /* CollectionViewDemo.app */;
+			productName = 13;
+			productReference = CE355A642EBE60B000C464EA /* 13.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEEB493C2EC84E7800827762 /* Project object */ = {
+		CE355A5C2EBE60B000C464EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					CEEB49432EC84E7800827762 = {
-						CreatedOnToolsVersion = 26.0;
-					};
-					CEEB49662EC9C5CF00827762 = {
+					CE355A632EBE60B000C464EA = {
 						CreatedOnToolsVersion = 26.0;
 					};
 				};
 			};
-			buildConfigurationList = CEEB493F2EC84E7800827762 /* Build configuration list for PBXProject "16" */;
+			buildConfigurationList = CE355A5F2EBE60B000C464EA /* Build configuration list for PBXProject "13" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CEEB493B2EC84E7800827762;
+			mainGroup = CE355A5B2EBE60B000C464EA;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CEEB49452EC84E7800827762 /* Products */;
+			productRefGroup = CE355A652EBE60B000C464EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEEB49432EC84E7800827762 /* 16 */,
-				CEEB49662EC9C5CF00827762 /* CollectionViewDemo */,
+				CE355A632EBE60B000C464EA /* 13 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEEB49422EC84E7800827762 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEB49652EC9C5CF00827762 /* Resources */ = {
+		CE355A622EBE60B000C464EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,14 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEEB49402EC84E7800827762 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEB49632EC9C5CF00827762 /* Sources */ = {
+		CE355A602EBE60B000C464EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,77 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CEEB49582EC84E7A00827762 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6SVCS46FAY;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 16/Resources/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-6";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		CEEB49592EC84E7A00827762 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6SVCS46FAY;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 16/Resources/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-6";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		CEEB495A2EC84E7A00827762 /* Debug */ = {
+		CE355A6D2EBE60B100C464EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		CEEB495B2EC84E7A00827762 /* Release */ = {
+		CE355A6E2EBE60B100C464EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,7 +246,7 @@
 			};
 			name = Release;
 		};
-		CEEB497A2EC9C5D100827762 /* Debug */ = {
+		CE355A702EBE60B100C464EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -379,34 +254,33 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SVCS46FAY;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CollectionViewDemo/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложению необходим доступ к камере для установки фото профиля";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Приложению необходим доступ к галерее для выбора фото профиля";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.p12s.CollectionViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CEEB497B2EC9C5D100827762 /* Release */ = {
+		CE355A712EBE60B100C464EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -414,64 +288,54 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SVCS46FAY;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CollectionViewDemo/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Приложению необходим доступ к камере для установки фото профиля";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Приложению необходим доступ к галерее для выбора фото профиля";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.p12s.CollectionViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEEB493F2EC84E7800827762 /* Build configuration list for PBXProject "16" */ = {
+		CE355A5F2EBE60B000C464EA /* Build configuration list for PBXProject "13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEEB495A2EC84E7A00827762 /* Debug */,
-				CEEB495B2EC84E7A00827762 /* Release */,
+				CE355A6D2EBE60B100C464EA /* Debug */,
+				CE355A6E2EBE60B100C464EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEEB49572EC84E7A00827762 /* Build configuration list for PBXNativeTarget "16" */ = {
+		CE355A6F2EBE60B100C464EA /* Build configuration list for PBXNativeTarget "13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEEB49582EC84E7A00827762 /* Debug */,
-				CEEB49592EC84E7A00827762 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEEB49792EC9C5D100827762 /* Build configuration list for PBXNativeTarget "CollectionViewDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEEB497A2EC9C5D100827762 /* Debug */,
-				CEEB497B2EC9C5D100827762 /* Release */,
+				CE355A702EBE60B100C464EA /* Debug */,
+				CE355A712EBE60B100C464EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEEB493C2EC84E7800827762 /* Project object */;
+	rootObject = CE355A5C2EBE60B000C464EA /* Project object */;
 }
