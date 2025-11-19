@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  NavigationDemo
+//  16-hw
 //
 //  Created by user on 11/19/25.
 //
@@ -20,20 +20,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     let tabBarController = UITabBarController()
     tabBarController.viewControllers = [
       UINavigationController(rootViewController: ViewController()),
-      UINavigationController(rootViewController: SecondViewController()),
-      UINavigationController(rootViewController: ThirdViewController())
+      UINavigationController(rootViewController: SecondViewController())
     ]
     tabBarController.viewControllers?.enumerated().forEach { index, controller in
       if index == 0 {
-        controller.tabBarItem.image = UIImage(systemName: "house")
-        controller.tabBarItem.title = "First"
-        controller.tabBarItem.badgeValue = "2"
+        controller.tabBarItem.image = UIImage(systemName: "person")
+        controller.tabBarItem.title = "List"
       }
       if index == 1 {
         controller.tabBarItem.image = UIImage(systemName: "person")
-      }
-      if index == 2 {
-        controller.tabBarItem.image = UIImage(systemName: "star")
+        controller.tabBarItem.title = "Table"
       }
     }
     
@@ -55,7 +51,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
   func sceneDidEnterBackground(_ scene: UIScene) {
   }
-
-
 }
-
