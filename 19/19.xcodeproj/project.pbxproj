@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		CED8CAFB2ED03E4D00775377 /* 17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 17.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB225AC2EDB663C00E4B8B5 /* 19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CED8CB0D2ED03E4F00775377 /* Exceptions for "17" folder in "17" target */ = {
+		CEB225BE2EDB663D00E4B8B5 /* Exceptions for "19" folder in "19" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = CED8CAFA2ED03E4D00775377 /* 17 */;
+			target = CEB225AB2EDB663C00E4B8B5 /* 19 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CED8CAFD2ED03E4D00775377 /* 17 */ = {
+		CEB225AE2EDB663C00E4B8B5 /* 19 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CED8CB0D2ED03E4F00775377 /* Exceptions for "17" folder in "17" target */,
+				CEB225BE2EDB663D00E4B8B5 /* Exceptions for "19" folder in "19" target */,
 			);
-			path = 17;
+			path = 19;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CED8CAF82ED03E4D00775377 /* Frameworks */ = {
+		CEB225A92EDB663C00E4B8B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CED8CAF22ED03E4D00775377 = {
+		CEB225A32EDB663C00E4B8B5 = {
 			isa = PBXGroup;
 			children = (
-				CED8CAFD2ED03E4D00775377 /* 17 */,
-				CED8CAFC2ED03E4D00775377 /* Products */,
+				CEB225AE2EDB663C00E4B8B5 /* 19 */,
+				CEB225AD2EDB663C00E4B8B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CED8CAFC2ED03E4D00775377 /* Products */ = {
+		CEB225AD2EDB663C00E4B8B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CED8CAFB2ED03E4D00775377 /* 17.app */,
+				CEB225AC2EDB663C00E4B8B5 /* 19.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,65 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CED8CAFA2ED03E4D00775377 /* 17 */ = {
+		CEB225AB2EDB663C00E4B8B5 /* 19 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CED8CB0E2ED03E4F00775377 /* Build configuration list for PBXNativeTarget "17" */;
+			buildConfigurationList = CEB225BF2EDB663D00E4B8B5 /* Build configuration list for PBXNativeTarget "19" */;
 			buildPhases = (
-				CE281AF32ED2E960005C60C0 /* Run SwiftLint */,
-				CED8CAF72ED03E4D00775377 /* Sources */,
-				CED8CAF82ED03E4D00775377 /* Frameworks */,
-				CED8CAF92ED03E4D00775377 /* Resources */,
+				CEB225A82EDB663C00E4B8B5 /* Sources */,
+				CEB225A92EDB663C00E4B8B5 /* Frameworks */,
+				CEB225AA2EDB663C00E4B8B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CED8CAFD2ED03E4D00775377 /* 17 */,
+				CEB225AE2EDB663C00E4B8B5 /* 19 */,
 			);
-			name = 17;
+			name = 19;
 			packageProductDependencies = (
 			);
-			productName = 17;
-			productReference = CED8CAFB2ED03E4D00775377 /* 17.app */;
+			productName = 19;
+			productReference = CEB225AC2EDB663C00E4B8B5 /* 19.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CED8CAF32ED03E4D00775377 /* Project object */ = {
+		CEB225A42EDB663C00E4B8B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					CED8CAFA2ED03E4D00775377 = {
+					CEB225AB2EDB663C00E4B8B5 = {
 						CreatedOnToolsVersion = 26.0;
 					};
 				};
 			};
-			buildConfigurationList = CED8CAF62ED03E4D00775377 /* Build configuration list for PBXProject "17" */;
+			buildConfigurationList = CEB225A72EDB663C00E4B8B5 /* Build configuration list for PBXProject "19" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CED8CAF22ED03E4D00775377;
+			mainGroup = CEB225A32EDB663C00E4B8B5;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CED8CAFC2ED03E4D00775377 /* Products */;
+			productRefGroup = CEB225AD2EDB663C00E4B8B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CED8CAFA2ED03E4D00775377 /* 17 */,
+				CEB225AB2EDB663C00E4B8B5 /* 19 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CED8CAF92ED03E4D00775377 /* Resources */ = {
+		CEB225AA2EDB663C00E4B8B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,29 +127,8 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		CE281AF32ED2E960005C60C0 /* Run SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run SwiftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CED8CAF72ED03E4D00775377 /* Sources */ = {
+		CEB225A82EDB663C00E4B8B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CED8CB0F2ED03E4F00775377 /* Debug */ = {
+		CEB225C02EDB663D00E4B8B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -168,9 +146,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SVCS46FAY;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 17/Info.plist;
+				INFOPLIST_FILE = 19/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -181,23 +158,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-7";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CED8CB102ED03E4F00775377 /* Release */ = {
+		CEB225C12EDB663D00E4B8B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -205,9 +178,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SVCS46FAY;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 17/Info.plist;
+				INFOPLIST_FILE = 19/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -218,23 +190,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-7";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.p12s.-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CED8CB112ED03E4F00775377 /* Debug */ = {
+		CEB225C22EDB663D00E4B8B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		CED8CB122ED03E4F00775377 /* Release */ = {
+		CEB225C32EDB663D00E4B8B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CED8CAF62ED03E4D00775377 /* Build configuration list for PBXProject "17" */ = {
+		CEB225A72EDB663C00E4B8B5 /* Build configuration list for PBXProject "19" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CED8CB112ED03E4F00775377 /* Debug */,
-				CED8CB122ED03E4F00775377 /* Release */,
+				CEB225C22EDB663D00E4B8B5 /* Debug */,
+				CEB225C32EDB663D00E4B8B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED8CB0E2ED03E4F00775377 /* Build configuration list for PBXNativeTarget "17" */ = {
+		CEB225BF2EDB663D00E4B8B5 /* Build configuration list for PBXNativeTarget "19" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CED8CB0F2ED03E4F00775377 /* Debug */,
-				CED8CB102ED03E4F00775377 /* Release */,
+				CEB225C02EDB663D00E4B8B5 /* Debug */,
+				CEB225C12EDB663D00E4B8B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CED8CAF32ED03E4D00775377 /* Project object */;
+	rootObject = CEB225A42EDB663C00E4B8B5 /* Project object */;
 }
